@@ -1,0 +1,18 @@
+<mvc:View controllerName="dtt.SAPUI5.controller.App" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc"> 
+    <Button id="_IDGenButton1" text="{i18n>showHelloButtonText}" press=".onShowHello">
+    </Button>
+    <Input id="_IDGenInput1" value="{/recipient/name}"
+            description="hello{/recipient/name}"
+            valueLiveUpdate="true"
+            width="60%">
+    </Input>
+</mvc:View>
+<!-- <mvc:View controllerName="dtt.SAPUI5.controller.App" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc"> 
+    <Button id="_IDGenButton1" text="Press me" press=".onShowHello">
+    </Button>
+    <Input id="_IDGenInput1" value="{/recipient/name}"
+            description="hello{/recipient/name}"
+            valueLiveUpdate="true"
+            width="60%">
+    </Input>
+</mvc:View> -->
