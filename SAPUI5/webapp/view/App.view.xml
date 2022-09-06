@@ -1,14 +1,8 @@
-<mvc:View controllerName="dtt.SAPUI5.controller.App" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" displayBlock="true"> 
-<Shell id="_IDGenShell1">
-    <App id="_IDGenApp1">
-        <pages>
-            <Page id="_IDGenPage1" title="{i18n>appTitle}"> 
-                <content>
-                    <mvc:XMLView id="_IDGenXMLView1" viewName="dtt.SAPUI5.view.HelloPanel">
-                    </mvc:XMLView>
-                </content>
-            </Page>
-        </pages>
-    </App>
-</Shell>
+<mvc:View controllerName="dtt.SAPUI5.controller.App" 
+            xmlns="sap.m" 
+            xmlns:mvc="sap.ui.core.mvc" 
+            displayBlock="true">
+    <Shell id="_IDGenShell1">
+        <App id="app" />
+    </Shell>
 </mvc:View>
